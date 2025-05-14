@@ -1,0 +1,2470 @@
+Package: attr
+Version: 2.4.48-2
+Depends: libc, libattr
+Source: feeds/packages/utils/attr
+SourceName: attr
+License: GPL-2.0-or-later
+LicenseFiles: doc/COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 12859
+Filename: attr_2.4.48-2_aarch64_cortex-a53.ipk
+Size: 13614
+SHA256sum: 2cefedaa692b8bd3dde4aa8e89432f12fc5daf6345b6e9e930838abe297790b0
+Description:  Extended attributes support
+ This package provides xattr manipulation utilities
+ - attr
+ - getfattr
+ - setfattr
+
+Package: avahi-dbus-daemon
+Version: 0.8-8
+Depends: libc, libavahi-dbus-support, libexpat, librt, libdaemon
+Provides: avahi-daemon
+Source: feeds/packages/libs/avahi
+SourceName: avahi-dbus-daemon
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1686461958
+CPE-ID: cpe:/a:avahi:avahi
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: aarch64_cortex-a53
+Installed-Size: 40568
+Filename: avahi-dbus-daemon_0.8-8_aarch64_cortex-a53.ipk
+Size: 41787
+SHA256sum: 186f10a1e4ed3df77c49feb4222b255678a446a252c693c4f572532532a1954e
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This package contains an mDNS/DNS-SD daemon.
+
+Package: bash
+Version: 5.1.16-1
+Depends: libc, libncurses6, libreadline8
+Source: feeds/packages/utils/bash
+SourceName: bash
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1674154351
+CPE-ID: cpe:/a:gnu:bash
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: aarch64_cortex-a53
+Installed-Size: 460852
+Filename: bash_5.1.16-1_aarch64_cortex-a53.ipk
+Size: 461400
+SHA256sum: afec374da0a1938d4df67e9b73938a30d93489e5f20ce84004f6429d3d2fe72d
+Description:  Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file. Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+
+Package: bc
+Version: 1.06.95-1
+Depends: libc, libreadline8, libncurses6
+Source: feeds/packages/utils/bc
+SourceName: bc
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+Maintainer: Bruno Randolf <br1@einfach.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 35435
+Filename: bc_1.06.95-1_aarch64_cortex-a53.ipk
+Size: 36323
+SHA256sum: 3d2cc6846df4f33275ce13c52e8859f490fce32ce7b53d644ac39ed96a3fc60b
+Description:  bc is a language that supports arbitrary precision numbers with
+ interactive execution of statements.
+
+Package: btrfs-progs
+Version: 5.11-1
+Depends: libc, libattr, libuuid1, libmount1, zlib, libblkid1, liblzo2, libpthread, kmod-fs-btrfs
+Source: feeds/packages/utils/btrfs-progs
+SourceName: btrfs-progs
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1623570424
+Maintainer: Karel Kočí <karel.koci@nic.cz>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1062675
+Filename: btrfs-progs_5.11-1_aarch64_cortex-a53.ipk
+Size: 1063276
+SHA256sum: 0642905e9870cb07ab5965fc8027f9d5fb464660499b7e5b66d3b207fc7b3009
+Description:  Btrfs is a new copy on write filesystem for Linux aimed at implementing
+ advanced features while focusing on fault tolerance, repair and easy
+ administration. Initially developed by Oracle, Btrfs is licensed under the
+ GPL and open for contribution from anyone.
+
+Package: cgi-io
+Version: 2022-08-10-901b0f04-21
+Depends: libc, libubox20210516, libubus20210630
+Source: feeds/packages/net/cgi-io
+SourceName: cgi-io
+License: GPL-2.0-or-later
+Section: net
+SourceDateEpoch: 1660168492
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 9439
+Filename: cgi-io_2022-08-10-901b0f04-21_aarch64_cortex-a53.ipk
+Size: 10241
+SHA256sum: b04ed1318a3f3307d4b596bbb9eb52079bc8cdb52e70f8efd0e7e40573cf09e4
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: chinadns-ng
+Version: 2023.10.28-1
+Depends: libc, ipset
+Source: feeds/packages/net/chinadns-ng
+SourceName: chinadns-ng
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1698555261
+Maintainer: pexcn <i@pexcn.me>
+Architecture: aarch64_cortex-a53
+Installed-Size: 33999
+Filename: chinadns-ng_2023.10.28-1_aarch64_cortex-a53.ipk
+Size: 34882
+SHA256sum: 295d257f40a134aff871902964efb9566f99740e99d84ddd9a3b214af12e1025
+Description:  ChinaDNS next generation, refactoring with epoll and ipset.
+
+Package: coreutils-base64
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/base64:/usr/libexec/base64-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-base64
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 22759
+Filename: coreutils-base64_8.32-6_aarch64_cortex-a53.ipk
+Size: 23552
+SHA256sum: b3f43ef653e35853159cdd78625ad45e0de42f28f15e9d17beb2bc1fd7fb498e
+Description:  Full version of standard GNU base64 utility.
+
+Package: coreutils-stat
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/stat:/usr/libexec/stat-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-stat
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 44037
+Filename: coreutils-stat_8.32-6_aarch64_cortex-a53.ipk
+Size: 44880
+SHA256sum: ef6d17e9b4863df496980f5bbd2643a1b4c0f700c2545f6d772957475de0a8ca
+Description:  Full version of standard GNU stat utility.
+
+Package: coreutils-stty
+Version: 8.32-6
+Depends: libc, coreutils
+Alternatives: 300:/bin/stty:/usr/libexec/stty-coreutils
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils-stty
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 30096
+Filename: coreutils-stty_8.32-6_aarch64_cortex-a53.ipk
+Size: 30882
+SHA256sum: 6c60e957abd0e770969d8d111902887e3ce6a47ad4b0f1501340de19d6baa597
+Description:  Full version of standard GNU stty utility.
+
+Package: coreutils
+Version: 8.32-6
+Depends: libc
+Source: feeds/packages/utils/coreutils
+SourceName: coreutils
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:gnu:coreutils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 104
+Filename: coreutils_8.32-6_aarch64_cortex-a53.ipk
+Size: 994
+SHA256sum: 9303463709cd6eb4b16b96a7eb2e6efc008b0464b8e2ae7884f734f60d6269fb
+Description:  Full versions of standard GNU utilities. If an equivalent Busybox applet is
+ available, you should consider compiling that instead as Busybox applets are
+ usually smaller, at the expense of reduced functionality.
+
+Package: curl
+Version: 7.83.1-20
+Depends: libc, libcurl4
+Source: feeds/packages/net/curl
+SourceName: curl
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1697090345
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: aarch64_cortex-a53
+Installed-Size: 57430
+Filename: curl_7.83.1-20_aarch64_cortex-a53.ipk
+Size: 58281
+SHA256sum: 79a66f30d120ffee41be8258521a581f265ecbbb577c425b7b2aee36c86ca565
+Description:  A client-side URL transfer utility
+
+Package: dbus
+Version: 1.13.12-1
+Depends: libc, libexpat, libdbus
+Source: feeds/packages/utils/dbus
+SourceName: dbus
+License: AFL-2.1
+Section: utils
+SourceDateEpoch: 1591128979
+CPE-ID: cpe:/a:freedesktop:dbus
+Architecture: aarch64_cortex-a53
+Installed-Size: 119137
+Filename: dbus_1.13.12-1_aarch64_cortex-a53.ipk
+Size: 119813
+SHA256sum: 90802aea52f2a0520f968178ab8f18c260e7392e209c851ec53731a53730b97a
+Description:  Simple interprocess messaging system (daemon)
+
+Package: dns2socks
+Version: 2.1-2
+Depends: libc, libpthread
+Source: feeds/packages/net/dns2socks
+SourceName: dns2socks
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1675155577
+Maintainer: ghostmaker
+Architecture: aarch64_cortex-a53
+Installed-Size: 11222
+Filename: dns2socks_2.1-2_aarch64_cortex-a53.ipk
+Size: 12040
+SHA256sum: 00590ec6804925703a30d9201a3ba01cf6a1e2d8fc3dd3f4c53ca4ec30d4b441
+Description:  This is a command line utility to resolve DNS requests via
+ a SOCKS tunnel like Tor or a HTTP proxy.
+
+Package: dns2tcp
+Version: 1.1.0-1
+Depends: libc
+Source: feeds/packages/net/dns2tcp
+SourceName: dns2tcp
+License: AGPL-3.0-only
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1652520973
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 12061
+Filename: dns2tcp_1.1.0-1_aarch64_cortex-a53.ipk
+Size: 12852
+SHA256sum: 8db13faaf7fd612f70e6a43bc886e33c4a9810d972472f7c13b48894ecd79b56
+Description:  utility to convert dns query from udp to tcp
+
+Package: filebrowser
+Version: 2.23.0-2
+Depends: libc
+Source: feeds/packages/utils/filebrowser
+SourceName: filebrowser
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1686337269
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 9624509
+Filename: filebrowser_2.23.0-2_aarch64_cortex-a53.ipk
+Size: 9614997
+SHA256sum: 6db4b3913c149e3da2563b1769126415b9d9938f08848a15b377447ca3d5fa5f
+Description:  filebrowser provides a file managing interface within a specified directory
+ and it can be used to upload, delete, preview, rename and edit your files.
+ It allows the creation of multiple users and each user can have its own directory.
+ It can be used as a standalone app or as a middleware.
+
+Package: glib2
+Version: 2.66.4-1
+Depends: libc, zlib, libpthread, libffi, libattr
+Source: feeds/packages/libs/glib2
+SourceName: glib2
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1678076345
+CPE-ID: cpe:/a:gnome:glib
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1126956
+Filename: glib2_2.66.4-1_aarch64_cortex-a53.ipk
+Size: 1123576
+SHA256sum: 561a1634df335204b5d441167d8cdef8d33744e2e1df1431779dbaf6afafc3fd
+Description:  The GLib library of C routines
+
+Package: grep
+Version: 3.6-1
+Depends: libc, libpcre
+Alternatives: 300:/bin/egrep:/usr/libexec/egrep-gnu, 300:/bin/fgrep:/usr/libexec/fgrep-gnu, 300:/bin/grep:/usr/libexec/grep-gnu
+Source: feeds/packages/utils/grep
+SourceName: grep
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1606181004
+CPE-ID: cpe:/a:gnu:grep
+Maintainer: Julen Landa Alustiza <julen@zokormazo.info>
+Architecture: aarch64_cortex-a53
+Installed-Size: 95365
+Filename: grep_3.6-1_aarch64_cortex-a53.ipk
+Size: 96210
+SHA256sum: 7aa96ee47f60ba3d28dba84dfa875a4b6be517236919fd4d6bbd0967df8e816a
+Description:  The grep command searches one or more input files for lines
+ containing a match to a specified pattern. By default, grep
+ prints the matching lines.
+
+Package: htop
+Version: 3.2.1-20
+Depends: libc, libncurses6
+Source: feeds/packages/admin/htop
+SourceName: htop
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: admin
+SourceDateEpoch: 1655927595
+CPE-ID: cpe:/a:htop:htop
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 104194
+Filename: htop_3.2.1-20_aarch64_cortex-a53.ipk
+Size: 105110
+SHA256sum: 2e1cd37ccf1d6111e21d6062f8c25e4b952f49c965897ea88383b65e3875cc03
+Description:  Htop is an ncursed-based process viewer similar to top, but
+ it allows to scroll the list vertically and horizontally to
+ see all processes and their full command lines.
+
+Package: httping
+Version: 2.5-1
+Depends: libc, libopenssl1.1
+Source: feeds/packages/net/httping
+SourceName: httping
+Section: net
+SourceDateEpoch: 1570903294
+Maintainer: Marcin Jurkowski <marcin1j@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 25816
+Filename: httping_2.5-1_aarch64_cortex-a53.ipk
+Size: 26619
+SHA256sum: c5236cb30bd1f58a602e18bd6f66d8cd2c967509fdc8905a12e85c300b046e67
+Description:  Give it an url, and it'll show you how long it takes to connect, send a
+ request and retrieve the reply (only the headers). Be aware that the
+ transmission across the network also takes time!
+ This package is built with SSL support.
+
+Package: iptables-mod-iface
+Version: 3.21-1
+Depends: libc, iptables, kmod-ipt-iface
+Source: feeds/packages/net/xtables-addons
+SourceName: iptables-mod-iface
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1669193453
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2810
+Filename: iptables-mod-iface_3.21-1_aarch64_cortex-a53.ipk
+Size: 3568
+SHA256sum: f8c64a901d22563e3fbd2e7069bb86e4bbe39809121c3f4c2e9b6b3e73605d37
+Description:  iface iptables extension
+
+Package: iptables-mod-ipmark
+Version: 3.21-1
+Depends: libc, iptables, kmod-ipt-ipmark
+Source: feeds/packages/net/xtables-addons
+SourceName: iptables-mod-ipmark
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1669193453
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2195
+Filename: iptables-mod-ipmark_3.21-1_aarch64_cortex-a53.ipk
+Size: 2942
+SHA256sum: b735822daec758a93e1f1a4c926355a520cfdd56e92dc5efd78ce09b6e66e2e7
+Description:  IPMARK iptables extension
+
+Package: iptables-mod-ipv4options
+Version: 3.21-1
+Depends: libc, iptables, kmod-ipt-ipv4options
+Source: feeds/packages/net/xtables-addons
+SourceName: iptables-mod-ipv4options
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1669193453
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2250
+Filename: iptables-mod-ipv4options_3.21-1_aarch64_cortex-a53.ipk
+Size: 2998
+SHA256sum: dd7e786005505a9757cea343e4c93116b6171473ed7fef95e5b6749080ead62e
+Description:  ipv4options iptables extension
+
+Package: iptables-mod-proto
+Version: 3.21-1
+Depends: libc, iptables, kmod-ipt-proto
+Source: feeds/packages/net/xtables-addons
+SourceName: iptables-mod-proto
+License: GPL-2.0
+Section: net
+SourceDateEpoch: 1669193453
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1607
+Filename: iptables-mod-proto_3.21-1_aarch64_cortex-a53.ipk
+Size: 2391
+SHA256sum: e2535d1a3ebd1d6e0ee6093e71ac5af0ad16fd181c5fbf32fbbad9a2259549d3
+Description:  PROTO iptables extension
+
+Package: jq
+Version: 1.6-1
+Depends: libc
+Source: feeds/packages/utils/jq
+SourceName: jq
+License: BSD
+Section: utils
+SourceDateEpoch: 1549886301
+Maintainer: Marko Ratkaj <marko.ratkaj@sartura.hr>
+Architecture: aarch64_cortex-a53
+Installed-Size: 103142
+Filename: jq_1.6-1_aarch64_cortex-a53.ipk
+Size: 103952
+SHA256sum: 1fd6ed2febaa342fa0ad10fef20bb8d17ba8e6d0eef78b2393028d179d95dd51
+Description:  Lightweight and flexible command-line JSON processor.
+
+Package: libattr
+Version: 2.4.48-2
+Depends: libc
+Source: feeds/packages/utils/attr
+SourceName: libattr
+License: LGPL-2.1-or-later
+LicenseFiles: doc/COPYING.LGPL
+Section: libs
+SourceDateEpoch: 1614187565
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 6877
+Filename: libattr_2.4.48-2_aarch64_cortex-a53.ipk
+Size: 7688
+SHA256sum: c06c6d86f422faca37a2fa359c54f6ed53293b5f0d614975015a77803a83d683
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libavahi-client
+Version: 0.8-8
+Depends: libc, avahi-dbus-daemon
+Source: feeds/packages/libs/avahi
+SourceName: libavahi-client
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1686461958
+CPE-ID: cpe:/a:avahi:avahi
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: aarch64_cortex-a53
+Installed-Size: 19308
+Filename: libavahi-client_0.8-8_aarch64_cortex-a53.ipk
+Size: 20493
+SHA256sum: f536cf065a31337e5095ad7f1ccd3d76c2a953669efb6bc0951c403b0e41e5db
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This packages adds the libavahi-client library.
+ It also automatically adds the required
+ libavahi-dbus-support and the avahi-dbus-daemon packages.
+ For more information please see the avahi documentation.
+
+Package: libavahi-dbus-support
+Version: 0.8-8
+Depends: libc, dbus
+Provides: libavahi
+Source: feeds/packages/libs/avahi
+SourceName: libavahi-dbus-support
+License: LGPL-2.1-or-later
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1686461958
+CPE-ID: cpe:/a:avahi:avahi
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: aarch64_cortex-a53
+Installed-Size: 82154
+Filename: libavahi-dbus-support_0.8-8_aarch64_cortex-a53.ipk
+Size: 83454
+SHA256sum: 3cd457fcc11bca278dca338c100bfde990bba151b64e83bdd246156b88d4a54a
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf)
+ implementation (library). It facilitates
+ service discovery on a local network -- this means that
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with,
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ The libavahi package contains the mDNS/DNS-SD shared libraries,
+ used by other programs. Specifically, it provides
+ libavahi-core and libavahi-common libraries.
+ .
+ The libavahi-dbus-support package enables
+ D-Bus support in avahi, needed to support
+ the libavahi-client library and avahi-utils.
+ .
+ Selecting this package modifies the build configuration
+ so that avahi packages are built with support for D-BUS enabled;
+ it does not generate a separate binary of its own.
+ It also automatically adds the D-Bus package to the build.
+ libavahi-dbus-support is selected automatically if you select
+ libavahi-client or avahi-utils.
+
+Package: libcap-ng
+Version: 0.8.1-1
+Depends: libc
+Source: feeds/packages/libs/libcap-ng
+SourceName: libcap-ng
+License: GPL-2.0-or-later LGPL-2.1-or-later
+LicenseFiles: License
+Section: libs
+SourceDateEpoch: 1606286568
+Maintainer: Lucian CRISTIAN <lucian.cristian@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 7942
+Filename: libcap-ng_0.8.1-1_aarch64_cortex-a53.ipk
+Size: 8734
+SHA256sum: 3ef65b8170e9e4d5effd26c0775d5c3198cfc3b34d128caa6e130958892dd994
+Description:  POSIX capabilities library library
+
+Package: libcap
+Version: 2.43-1
+Depends: libc
+Source: feeds/packages/libs/libcap
+SourceName: libcap
+License: GPL-2.0-only
+LicenseFiles: License
+Section: libs
+SourceDateEpoch: 1614187565
+Maintainer: Paul Wassi <p.wassi@gmx.at>
+Architecture: aarch64_cortex-a53
+Installed-Size: 12280
+Filename: libcap_2.43-1_aarch64_cortex-a53.ipk
+Size: 13007
+SHA256sum: a1c51aded04c847d2d15fcea5d84d90ddd6cffe381f89452f8d9ff4910f12c02
+Description:  Linux capabilities library library
+
+Package: libcbor0
+Version: 0.8.0-1
+Depends: libc
+Provides: libcbor
+Source: feeds/packages/libs/libcbor
+SourceName: libcbor
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1609973585
+ABIVersion: 0
+Maintainer: Linos Giannopoulos <linosgian00+openwrt@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 20222
+Filename: libcbor0_0.8.0-1_aarch64_cortex-a53.ipk
+Size: 21016
+SHA256sum: e8e81309c6852849ef20c050f8ce15f87892612ea4ea7838581c3e7b4ba91ab0
+Description:  libcbor is a C library for parsing and generating CBOR, the general-purpose schema-less binary data format.
+
+Package: libcurl4
+Version: 7.83.1-20
+Depends: libc, libopenssl1.1, libpthread, libnghttp2-14, ca-bundle
+Provides: libcurl
+Source: feeds/packages/net/curl
+SourceName: libcurl
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1697090345
+ABIVersion: 4
+CPE-ID: cpe:/a:haxx:libcurl
+Maintainer: Stan Grishin <stangri@melmac.ca>
+Architecture: aarch64_cortex-a53
+Installed-Size: 194133
+Filename: libcurl4_7.83.1-20_aarch64_cortex-a53.ipk
+Size: 194951
+SHA256sum: 6ab69625f3e357cbdf51c3cf084320f74e12d71bb68fff07575b6f9c7b8e706f
+Description:  A client-side URL transfer library
+
+Package: libdaemon
+Version: 0.14-5
+Depends: libc
+Source: feeds/packages/libs/libdaemon
+SourceName: libdaemon
+Section: libs
+SourceDateEpoch: 1614187565
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: aarch64_cortex-a53
+Installed-Size: 9531
+Filename: libdaemon_0.14-5_aarch64_cortex-a53.ipk
+Size: 10611
+SHA256sum: 9090fde0761e1c06246645eeff33b3a291862591576f5820edaca3446ad1fc65
+Description:  libdaemon is a lightweight C library that eases the writing of UNIX daemons.
+ It consists of the following parts:
+ - A wrapper around fork() which does the correct daemonization procedure of a process
+ - A wrapper around syslog() for simpler and compatible log output to Syslog or STDERR
+ - An API for writing PID files
+ - An API for serializing UNIX signals into a pipe for usage with select() or poll()
+ - An API for running subprocesses with STDOUT and STDERR redirected to syslog
+ 
+ APIs like these are used in most daemon software available. It is not that
+ simple to get it done right and code duplication is not a goal.
+
+Package: libdbus
+Version: 1.13.12-1
+Depends: libc, libpthread
+Source: feeds/packages/utils/dbus
+SourceName: libdbus
+License: AFL-2.1
+Section: utils
+SourceDateEpoch: 1591128979
+CPE-ID: cpe:/a:freedesktop:dbus
+Architecture: aarch64_cortex-a53
+Installed-Size: 132024
+Filename: libdbus_1.13.12-1_aarch64_cortex-a53.ipk
+Size: 132713
+SHA256sum: c85ca3fe2399c63eb86c8659e4fa8a4977b91378e23c0dd2f2ca82843bcde28c
+Description:  Simple interprocess messaging system (library)
+
+Package: libev
+Version: 4.31-1
+Depends: libc
+Source: feeds/packages/libs/libev
+SourceName: libev
+License: BSD-2-Clause
+Section: libs
+SourceDateEpoch: 1578577141
+Maintainer: Karl Palsson <karlp@tweak.net.au>
+Architecture: aarch64_cortex-a53
+Installed-Size: 25575
+Filename: libev_4.31-1_aarch64_cortex-a53.ipk
+Size: 26300
+SHA256sum: 946d5c19e3dc38535bb05928618e286c74621635652c62a653a28c4a4f871350
+Description:  A full-featured and high-performance event loop that is loosely modelled after
+ libevent, but without its limitations and bugs.
+
+Package: libevdev
+Version: 1.13.0-1
+Depends: libc
+Source: feeds/packages/libs/libevdev
+SourceName: libevdev
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1665689787
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 32484
+Filename: libevdev_1.13.0-1_aarch64_cortex-a53.ipk
+Size: 33028
+SHA256sum: 2dcae6518763b3741d2075be4888b64e13b0b594bc9cc04a9c499d5089c92715
+Description:  libevdev is a wrapper library for evdev devices. it moves the common
+ tasks when dealing with evdev devices into a library and provides a
+ library interface to the callers, thus avoiding erroneous ioctls, etc.
+ 
+ The eventual goal is that libevdev wraps all ioctls available to
+ evdev devices, thus making direct access unnecessary.
+
+Package: libexpat
+Version: 2.2.10-2
+Depends: libc
+Source: feeds/packages/libs/expat
+SourceName: libexpat
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1645664409
+CPE-ID: cpe:/a:libexpat:expat
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: aarch64_cortex-a53
+Installed-Size: 45580
+Filename: libexpat_2.2.10-2_aarch64_cortex-a53.ipk
+Size: 46361
+SHA256sum: 9507171178205b128a6566d90130c664a9dca3a556950b48fcf0ddca8a855578
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libffi
+Version: 3.3-2
+Depends: libc
+Source: feeds/packages/libs/libffi
+SourceName: libffi
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1650317435
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: aarch64_cortex-a53
+Installed-Size: 13888
+Filename: libffi_3.3-2_aarch64_cortex-a53.ipk
+Size: 14899
+SHA256sum: 8ea1b833e9ac77ba5fe34155107a03e1e8b7a1e252efc283f3f38ecfaa0f8296
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libfido2-1
+Version: 1.6.0-1
+Depends: libc, libcbor0, libopenssl1.1, libudev
+Provides: libfido2
+Source: feeds/packages/libs/libfido2
+SourceName: libfido2
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1653484955
+ABIVersion: -1
+Maintainer: Linos Giannopoulos <linosgian00+openwrt@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 56436
+Filename: libfido2-1_1.6.0-1_aarch64_cortex-a53.ipk
+Size: 57415
+SHA256sum: e79ed7dbefc33d105195fb98348ac7311811620dece4901d214c3f9514603458
+Description:  libfido2 provides library functionality and command-line tools to communicate with a FIDO device over USB, and to verify attestation and assertion signatures.
+ 
+ libfido2 supports the FIDO U2F (CTAP 1) and FIDO 2.0 (CTAP 2) protocols.
+
+Package: libgnutls
+Version: 3.7.1-2
+Depends: libc, libnettle8, libgmp10, kmod-cryptodev, libatomic1
+Source: feeds/packages/libs/gnutls
+SourceName: libgnutls
+License: LGPL-2.1-or-later
+Section: libs
+SourceDateEpoch: 1639488196
+CPE-ID: cpe:/a:gnu:gnutls
+Maintainer: Nikos Mavrogiannopoulos <nmav@gnutls.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 894210
+Filename: libgnutls_3.7.1-2_aarch64_cortex-a53.ipk
+Size: 893510
+SHA256sum: a864fccc1c26906e4e373c88bcd4513dc02f2b5198e0bed26b430384c392e696
+Description:  GnuTLS is a secure communications library implementing the SSL, TLS
+ and DTLS protocols and technologies around them. It provides a simple
+ C language application programming interface (API) to access the secure
+ communications protocols as well as APIs to parse and write X.509, PKCS12,
+ OpenPGP and other required structures. It is aimed to be portable and
+ efficient with focus on security and interoperability.
+ This package contains the GnuTLS shared library, needed by other programs.
+
+Package: libkmod
+Version: 27-2
+Depends: libc, zlib
+Source: feeds/packages/utils/kmod
+SourceName: libkmod
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1607593828
+Maintainer: Jeff Waugh <jdub@bethesignal.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 37627
+Filename: libkmod_27-2_aarch64_cortex-a53.ipk
+Size: 38492
+SHA256sum: f7b43c34acb1bf270cea8961d7b088fbf2f0c70ca7886c2d4862b45866514c59
+Description:  Linux kernel module handling (library)
+
+Package: liblzma
+Version: 5.2.5-3
+Depends: libc, libpthread
+Source: feeds/packages/utils/xz
+SourceName: liblzma
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1605949199
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: aarch64_cortex-a53
+Installed-Size: 54427
+Filename: liblzma_5.2.5-3_aarch64_cortex-a53.ipk
+Size: 55263
+SHA256sum: 6d860f3dcaf279992540335f08855f33884fb7d109026bda84e351a01d769665
+Description:  liblzma library from XZ Utils
+
+Package: liblzo2
+Version: 2.10-4
+Depends: libc
+Provides: liblzo
+Source: feeds/packages/libs/lzo
+SourceName: liblzo
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1607138319
+ABIVersion: 2
+Architecture: aarch64_cortex-a53
+Installed-Size: 39094
+Filename: liblzo2_2.10-4_aarch64_cortex-a53.ipk
+Size: 39915
+SHA256sum: b5172019ff11fbbbe378c0c87a7a84ac8ec507323f2bde6392b0213c7bb0ac53
+Description:  LZO is a data compression library which is suitable for data de-/compression
+ in real-time. This means it favours speed over compression ratio.
+
+Package: libmbim
+Version: 1.26.4-3
+Depends: libc, glib2
+Source: feeds/packages/libs/libmbim
+SourceName: libmbim
+License: LGPL-2.0-or-later
+LicenseFiles: COPYING.LIB
+Section: libs
+SourceDateEpoch: 1669674024
+Maintainer: Nicholas Smith <nicholas@nbembedded.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 128178
+Filename: libmbim_1.26.4-3_aarch64_cortex-a53.ipk
+Size: 128587
+SHA256sum: 784cbb76c2fb77d10a82dd5b68a2fe2f2eeeb0cef845f2c861117d709b190e65
+Description:  Helper library to talk to MBIM enabled modems.
+ Add mbim-utils for extra utilities.
+
+Package: libminiupnpc
+Version: 2.2.1-1
+Depends: libc
+Source: feeds/packages/net/miniupnpc
+SourceName: libminiupnpc
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:miniupnp_project:miniupnp
+Architecture: aarch64_cortex-a53
+Installed-Size: 23620
+Filename: libminiupnpc_2.2.1-1_aarch64_cortex-a53.ipk
+Size: 24359
+SHA256sum: 7be3b482266d10129d7e3b8b947afd1c9c234cc9a7d6b6e7c0b73d857b1b67a5
+Description:  Lightweight UPnP library
+
+Package: libnatpmp1
+Version: 20150609-3
+Depends: libc
+Provides: libnatpmp
+Source: feeds/packages/libs/libnatpmp
+SourceName: libnatpmp
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1584326638
+ABIVersion: 1
+Architecture: aarch64_cortex-a53
+Installed-Size: 3646
+Filename: libnatpmp1_20150609-3_aarch64_cortex-a53.ipk
+Size: 4552
+SHA256sum: 6fc52a13023cbc66c9b8d55154600057fd9bccc73a32f32a9b5e7c1b437fcb4a
+Description:  libnatpmp is an attempt to make a portable and fully compliant implementation
+ of the protocol for the client side. It is based on non blocking sockets and
+ all calls of the API are asynchronous. It is therefore very easy to integrate
+ the NAT-PMP code to any event driven code.
+ This package contains the shared library.
+
+Package: libnghttp2-14
+Version: 1.43.0-1
+Depends: libc
+Provides: libnghttp2
+Source: feeds/packages/libs/nghttp2
+SourceName: libnghttp2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1612720536
+ABIVersion: -14
+Maintainer: Hans Dedecker <dedeckeh@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 70999
+Filename: libnghttp2-14_1.43.0-1_aarch64_cortex-a53.ipk
+Size: 70311
+SHA256sum: dea32a551f94276208f25df6d2e9434d598c3340fbed2a5cf27e3fdca93b79fc
+Description:  C library implementing the framing layer of the HTTP/2 protocol. It can be used to build a HTTP/2-capable HTTP client or server
+
+Package: libopenssl-afalg_sync
+Version: 1.2.0-beta.1-1
+Depends: libc, libopenssl1.1, libopenssl-conf, kmod-crypto-user
+Conflicts: libopenssl-afalg
+Source: feeds/packages/libs/afalg_engine
+SourceName: libopenssl-afalg_sync
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1580395319
+Maintainer: Eneas U de Queiroz <cotequeiroz@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 8096
+Filename: libopenssl-afalg_sync_1.2.0-beta.1-1_aarch64_cortex-a53.ipk
+Size: 9057
+SHA256sum: 4e8815fe03bff8942f2272b606e47de6f83f5d4157ae4212033069dda05e6cb7
+Description:  This is an alternate AF_ALG engine for openssl, based on the devcrypto
+ engine, but using the AF_ALG interface instead of /dev/crypto
+ 
+ It is different than the AF_ALG engine that ships with OpenSSL:
+ - it is faster
+ - it uses sync calls, instead of async
+ - it suports more algorithms
+
+Package: libpci
+Version: 3.8.0-2
+Depends: libc
+Source: feeds/packages/utils/pciutils
+SourceName: libpci
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1661282075
+Maintainer: Lucian Cristian <lucian.cristian@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 22174
+Filename: libpci_3.8.0-2_aarch64_cortex-a53.ipk
+Size: 22909
+SHA256sum: 428ef599750cf7d6b0e5ffc15c720f24c68ebe8eac7e185814426868e67f8079
+Description:  Linux PCI Libraries
+
+Package: libpcre2
+Version: 10.36-1
+Depends: libc
+Source: feeds/packages/libs/pcre2
+SourceName: libpcre2
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+SourceDateEpoch: 1607997754
+CPE-ID: cpe:/a:pcre:pcre
+Maintainer: Shane Peelar <lookatyouhacker@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 110189
+Filename: libpcre2_10.36-1_aarch64_cortex-a53.ipk
+Size: 110959
+SHA256sum: 83d3fa955e775ee5e21b3f540f2dfde5396a1bb50c023710da3584189da01906
+Description:  A Perl Compatible Regular Expression library
+
+Package: libqmi
+Version: 1.30.8-1
+Depends: libc, glib2, libmbim, libqrtr-glib
+Source: feeds/packages/libs/libqmi
+SourceName: libqmi
+License: LGPL-2.0-or-later
+LicenseFiles: COPYING.LIB
+Section: libs
+SourceDateEpoch: 1669977582
+Maintainer: Nicholas Smith <nicholas@nbembedded.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 537739
+Filename: libqmi_1.30.8-1_aarch64_cortex-a53.ipk
+Size: 535085
+SHA256sum: 37927bcf17b8dd30932c7b1df0875cbfc0d7387db6e528b4b7185d8c4bc9308c
+Description:  Helper library talk to QMI enabled modems.
+ Add qmi-utils for extra utilities.
+
+Package: libqrtr-glib
+Version: 1.0.0-1
+Depends: libc, glib2
+Source: feeds/packages/libs/libqrtr-glib
+SourceName: libqrtr-glib
+License: LGPL-2.0-or-later
+LicenseFiles: COPYING.LIB
+Section: libs
+SourceDateEpoch: 1616969334
+Maintainer: Nicholas Smith <nicholas.smith@telcoantennas.com.au>
+Architecture: aarch64_cortex-a53
+Installed-Size: 12691
+Filename: libqrtr-glib_1.0.0-1_aarch64_cortex-a53.ipk
+Size: 13487
+SHA256sum: bbf35fba5dc53ccee76a94436939e663d1af7aef1f469d02640f7df340cb5a1a
+Description:  Helper library talk to QRTR enabled modems.
+
+Package: libsodium
+Version: 1.0.18-2022-02-27-2e9b4c47-1
+Depends: libc
+Source: feeds/packages/libs/libsodium
+SourceName: libsodium
+License: ISC
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1646893879
+Maintainer: Damiano Renfer <x9w2n7xnu@relay.firefox.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 114496
+Filename: libsodium_1.0.18-2022-02-27-2e9b4c47-1_aarch64_cortex-a53.ipk
+Size: 115736
+SHA256sum: 0fabfe1b354652c1507af07cedf98506d872a3e4855fcc48fe28a4741f35510e
+Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
+ NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
+ Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
+ The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
+ The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
+ And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: libtasn1
+Version: 4.16.0-1
+Depends: libc
+Source: feeds/packages/libs/libtasn1
+SourceName: libtasn1
+License: LGPL-2.1-or-later
+LicenseFiles: COPYING.LIB
+Section: libs
+SourceDateEpoch: 1590370659
+CPE-ID: cpe:/a:gnu:libtasn1
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 32604
+Filename: libtasn1_4.16.0-1_aarch64_cortex-a53.ipk
+Size: 33433
+SHA256sum: 465a0d6d56e3f5dc56a756724c66cf92b3ba935954b048c8c1b10fa1c5d1947f
+Description:  This is a library for Abstract Syntax Notation One (ASN.1) and
+ Distinguish Encoding Rules (DER) manipulation.
+
+Package: libtirpc
+Version: 1.3.2-1
+Depends: libc, libpthread
+Source: feeds/packages/libs/libtirpc
+SourceName: libtirpc
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1625943293
+Maintainer: Andy Walsh <andy.walsh44+github@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 66305
+Filename: libtirpc_1.3.2-1_aarch64_cortex-a53.ipk
+Size: 67087
+SHA256sum: 9f86775caa6873c3cbea4535ad7685bb543fa96ae6bfad531c4eaa9f35ea00de
+Description:  Library TI RPC for RPC bindings
+
+Package: libudev-zero
+Version: 1.0.1-1
+Depends: libc, libevdev
+Conflicts: libudev, eudev, udev
+Provides: libudev
+Source: feeds/packages/libs/libudev-zero
+SourceName: libudev-zero
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1665689841
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: aarch64_cortex-a53
+Installed-Size: 10643
+Filename: libudev-zero_1.0.1-1_aarch64_cortex-a53.ipk
+Size: 11413
+SHA256sum: 6d81df5aac0d063460774c60ac888eea6c3db9cfee16a72edb748a93fa692422
+Description:  Drop-in replacement for libudev
+
+Package: libudns
+Version: 0.4-1
+Depends: libc
+Source: feeds/packages/libs/udns
+SourceName: libudns
+License: LGPL-2.1
+Section: libs
+SourceDateEpoch: 1614187565
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 20232
+Filename: libudns_0.4-1_aarch64_cortex-a53.ipk
+Size: 20986
+SHA256sum: 87875238a02fc01b9bc79359b5dbb7c520eed46fecfd07471ee96bace7e66362
+Description:  UDNS is a stub DNS resolver library with ability to perform both syncronous
+ and asyncronous DNS queries.
+
+Package: liburing
+Version: 0.7-2
+Depends: libc
+Source: feeds/packages/libs/liburing
+SourceName: liburing
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1674372964
+Maintainer: Christian Lachner <gladiac@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 4595
+Filename: liburing_0.7-2_aarch64_cortex-a53.ipk
+Size: 5492
+SHA256sum: d2ec1bdd73e2064e40d2b37098a0fb579266a1948d9b7d3b7eb41cacceb44023
+Description:  liburing provides helpers to setup and teardown io_uring instances,
+ and also a simplified interface for applications that don't need
+ (or want) to deal with the full kernel side implementation.
+ For more info on io_uring, please see: https://kernel.dk/io_uring.pdf
+
+Package: libuv1
+Version: 1.40.0-3
+Depends: libc, libpthread, librt
+Provides: libuv
+Source: feeds/packages/libs/libuv
+SourceName: libuv
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1625547763
+ABIVersion: 1
+CPE-ID: cpe:/a:libuv_project:libuv
+Maintainer: Marko Ratkaj <marko.ratkaj@sartura.hr>
+Architecture: aarch64_cortex-a53
+Installed-Size: 67339
+Filename: libuv1_1.40.0-3_aarch64_cortex-a53.ipk
+Size: 68131
+SHA256sum: b63f265dfbdaeba5e2587767689f76b3ddc328e9164c275867a6c98cbc55841d
+Description:  libuv is a multi-platform support library with a focus on asynchronous I/O. It
+ was primarily developed for use by Node.js, but it's also used by Luvit, Julia,
+ pyuv, and others.
+
+Package: libwebsockets-full
+Version: 3.1.0-2
+Depends: libc, zlib, libcap, libubox20210516, libopenssl1.1, libuv1
+Provides: libwebsockets, libwebsockets-openssl
+Source: feeds/packages/libs/libwebsockets
+SourceName: libwebsockets-full
+License: LGPL-2.1+exception
+LicenseFiles: LICENSE
+Section: libs
+SourceDateEpoch: 1672814701
+Maintainer: Karl Palsson <karlp@etactica.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 129633
+Filename: libwebsockets-full_3.1.0-2_aarch64_cortex-a53.ipk
+Size: 130426
+SHA256sum: bcc69652c0c69ea85f72faf159a634b8afdc582f96205f7aee43fa2d4f82d078
+Description:  libwebsockets (Full - OpenSSL, libuv, plugins, CGI)
+
+Package: libzstd
+Version: 1.4.9-1
+Depends: libc
+Source: feeds/packages/utils/zstd
+SourceName: libzstd
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: libs
+SourceDateEpoch: 1616970189
+Architecture: aarch64_cortex-a53
+Installed-Size: 363972
+Filename: libzstd_1.4.9-1_aarch64_cortex-a53.ipk
+Size: 363616
+SHA256sum: 6d36b5de5187b095ad8be7c68c8f5b0938c3f263524b6a6ead34d3b9fa416a48
+Description:  Zstandard - Fast real-time compression algorithm.
+ This package provides libzstd library.
+
+Package: lua-cjson
+Version: 2.1.0-2
+Depends: libc, lua
+Source: feeds/packages/lang/lua-cjson
+SourceName: lua-cjson
+License: MIT
+LicenseFiles: LICENSE
+Section: lang
+SourceDateEpoch: 1570903294
+Maintainer: Dirk Chang <dirk@kooiot.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 12649
+Filename: lua-cjson_2.1.0-2_aarch64_cortex-a53.ipk
+Size: 13426
+SHA256sum: 9d5a911b0a3d3143d0ca9cde44d524b68d3ee49bb63e343db9cc3b4157bf6f12
+Description:  Lua CJSON is a fast JSON encoding/parsing module for Lua.
+
+Package: lua-neturl
+Version: 1.1-1-3
+Depends: libc, lua
+Source: feeds/packages/lang/lua-neturl
+SourceName: lua-neturl
+License: MIT
+Section: lang
+SourceDateEpoch: 1674473072
+Maintainer: Tianling Shen <cnsztl@immortalwrt.org>
+Architecture: all
+Installed-Size: 4539
+Filename: lua-neturl_1.1-1-3_all.ipk
+Size: 5341
+SHA256sum: 2758a11086bcda8b443d3f0c9e9fbebdd99126b80c1342650dfc9a3e471befa8
+Description:  This small Lua library provides a few functions to parse URL with
+ querystring and build new URL easily.
+
+Package: microsocks
+Version: 1.0.3-3
+Depends: libc, libpthread
+Source: feeds/packages/net/microsocks
+SourceName: microsocks
+License: MIT
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1673002827
+Maintainer: Mateusz Korniak <matkorgithubcom@ant.gliwice.pl>
+Architecture: aarch64_cortex-a53
+Installed-Size: 6157
+Filename: microsocks_1.0.3-3_aarch64_cortex-a53.ipk
+Size: 7044
+SHA256sum: bfa5d04441411e7999e0c5c0a4b0db52884fea12f6f748f063439cef80287185
+Description:  Low resource SOCKS5 proxy.
+ Supports only SOCKS5 protocol and forwarding only TCP/IP connections.
+
+Package: minicom
+Version: 2.7.1-2
+Depends: libc, libncurses6
+Source: feeds/packages/utils/minicom
+SourceName: minicom
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+CPE-ID: cpe:/a:minicom:minicom
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 77855
+Filename: minicom_2.7.1-2_aarch64_cortex-a53.ipk
+Size: 78594
+SHA256sum: c13c2783a6bd2efe61a4cf80100b78a55fcb74965038653d0acf0db25b922897
+Description:  Terminal emulation program
+
+Package: miniupnpd
+Version: 2.0.20170421-4
+Depends: libc, iptables, libip4tc2, libip6tc2, ip6tables, libuuid1
+Source: feeds/packages/net/miniupnpd
+SourceName: miniupnpd
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1682748893
+CPE-ID: cpe:/a:miniupnp_project:miniupnpd
+Architecture: aarch64_cortex-a53
+Installed-Size: 61435
+Filename: miniupnpd_2.0.20170421-4_aarch64_cortex-a53.ipk
+Size: 62353
+SHA256sum: 7a322979fcf6b2c1a65831586ca3eeb5c8ada5dd0f5eb052b78d2aed6ba53c5c
+Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+
+Package: modemmanager
+Version: 1.18.12-5
+Depends: libc, glib2, dbus, ppp, libmbim, libqmi
+Source: feeds/packages/net/modemmanager
+SourceName: modemmanager
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1666889301
+Maintainer: Nicholas Smith <nicholas@nbembedded.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 1295957
+Filename: modemmanager_1.18.12-5_aarch64_cortex-a53.ipk
+Size: 1281283
+SHA256sum: d9fa1a138baf2a6931a00ec203fbdae3335a73d39611a854e199e5fe9e7648fe
+Description:  ModemManager is a D-Bus-activated service which allows controlling mobile
+ broadband modems. Add kernel modules for your modems as needed.
+ Select Utilities/usb-modeswitch if needed.
+
+Package: nano
+Version: 7.2-2
+Depends: libc, libncurses6
+Source: feeds/packages/utils/nano
+SourceName: nano
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1680716906
+CPE-ID: cpe:/a:gnu:nano
+Maintainer: Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: aarch64_cortex-a53
+Installed-Size: 73206
+Filename: nano_7.2-2_aarch64_cortex-a53.ipk
+Size: 74144
+SHA256sum: 5111c178ce591a16322db7c36948db6c06b846dbe926b5bce371aed4fb0bf3cc
+Description:  Nano is a small and simple text editor for use on the terminal.
+ 
+ Nano started as an enhanced clone of the Pico text editor.
+ Nowadays Nano wants to be a generally useful editor with sensible
+ defaults (linewise scrolling, no automatic line breaking).
+ 
+ Nano is an official GNU package.
+
+Package: openssh-keygen
+Version: 8.4p1-4
+Depends: libc, libopenssl1.1, zlib
+Source: feeds/packages/net/openssh
+SourceName: openssh-keygen
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+SourceDateEpoch: 1609973585
+CPE-ID: cpe:/a:openssh:openssh
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: aarch64_cortex-a53
+Installed-Size: 192793
+Filename: openssh-keygen_8.4p1-4_aarch64_cortex-a53.ipk
+Size: 193175
+SHA256sum: 23b0ac6160e5f6c14f6180370c92a658cddcf0981bf49de9cd5d2e5fee2074ba
+Description:  OpenSSH keygen.
+
+Package: openssh-sftp-server
+Version: 8.4p1-4
+Depends: libc, libopenssl1.1, zlib
+Source: feeds/packages/net/openssh
+SourceName: openssh-sftp-server
+License: BSD ISC
+LicenseFiles: LICENCE
+Section: net
+SourceDateEpoch: 1609973585
+CPE-ID: cpe:/a:openssh:openssh
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: aarch64_cortex-a53
+Installed-Size: 50969
+Filename: openssh-sftp-server_8.4p1-4_aarch64_cortex-a53.ipk
+Size: 51751
+SHA256sum: d69d0a853d8e953ca779cced79d1b300390dfa1638a003d6c94d85d5d48e6c3b
+Description:  OpenSSH SFTP server.
+
+Package: parted
+Version: 3.4-1
+Depends: libc, libblkid1, libuuid1, libreadline8
+Source: feeds/packages/utils/parted
+SourceName: parted
+Section: utils
+SourceDateEpoch: 1631517301
+Maintainer: Oskari Rauta <oskari.rauta@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 221877
+Filename: parted_3.4-1_aarch64_cortex-a53.ipk
+Size: 222538
+SHA256sum: f65397cc1dae5514a0564165c662aee689b1c4d39091a07ae9da4bc855ab8cfa
+Description:  GNU Parted manipulates partition tables. This is useful for
+ creating space for new operating systems, reorganizing
+ disk usage, copying data on hard disks and disk imaging.
+
+Package: pciids
+Version: 0.359-1
+Depends: libc
+Source: feeds/packages/utils/hwdata
+SourceName: pciids
+License: GPL-2.0-or-later  XFree86-1.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1651680722
+Architecture: aarch64_cortex-a53
+Installed-Size: 306372
+Filename: pciids_0.359-1_aarch64_cortex-a53.ipk
+Size: 306637
+SHA256sum: eb2f84a3cf2b22ecddffb8bd578c252305859fde1e4cf1ef4509727cf4f27fb8
+Description:  PCI ID list
+
+Package: pciutils
+Version: 3.8.0-2
+Depends: libc, libkmod, libpci, pciids
+Source: feeds/packages/utils/pciutils
+SourceName: pciutils
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1661282075
+Maintainer: Lucian Cristian <lucian.cristian@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 43616
+Filename: pciutils_3.8.0-2_aarch64_cortex-a53.ipk
+Size: 44516
+SHA256sum: 7a352556d99b6008987a2fe6a361343d7365a59179d50d922df51ab037a6ab2e
+Description:  contains collection of programs for inspecting and manipulating configuration
+ of PCI devices
+
+Package: picocom
+Version: 3.1-5
+Depends: libc
+Source: feeds/packages/utils/picocom
+SourceName: picocom
+License: LICENSE.txt
+Section: utils
+SourceDateEpoch: 1614187565
+Architecture: aarch64_cortex-a53
+Installed-Size: 22753
+Filename: picocom_3.1-5_aarch64_cortex-a53.ipk
+Size: 23431
+SHA256sum: 326db7ccbbb0ec28728b55770b88cdc789d6f0aa2678fccb704ac95d2070d50c
+Description:  minimal dumb-terminal emulation program
+
+Package: samba4-libs
+Version: 4.14.12-2
+Depends: libc, libtirpc, libreadline8, libpopt0, libcap, zlib, libgnutls, libtasn1, libuuid1, libopenssl1.1, libpthread, liburing, attr, libavahi-client
+Source: feeds/packages/net/samba4
+SourceName: samba4-libs
+License: GPL-3.0-only
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1670367370
+CPE-ID: cpe:/a:samba:samba
+Maintainer: Andy Walsh <andy.walsh44+github@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 8226976
+Filename: samba4-libs_4.14.12-2_aarch64_cortex-a53.ipk
+Size: 8170635
+SHA256sum: 6c0d8c1a4843d601af7eb5797fedd4c521c0c8ee5b29c8ceb118d02f671936dd
+Description:  Samba 4.14.12 libs
+
+Package: samba4-server
+Version: 4.14.12-2
+Depends: libc, samba4-libs
+Conflicts: samba36-server
+Source: feeds/packages/net/samba4
+SourceName: samba4-server
+License: GPL-3.0-only
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1670367370
+CPE-ID: cpe:/a:samba:samba
+Maintainer: Andy Walsh <andy.walsh44+github@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 255478
+Filename: samba4-server_4.14.12-2_aarch64_cortex-a53.ipk
+Size: 256506
+SHA256sum: c5a01e499052d28b7beff07dc0f7045582df9233ce841aec67144f04c70c22f2
+Description:  installs: smbd (nmbd) smbpasswd pdbedit testparm (nmblookup) (smbcacls sharesec)
+ (samba samba-tool ntlm_auth samba-gpupdate samba_dnsupdate samba_kcc samba_spnupdate samba_upgradedns samba_downgrade_db)
+ 
+ This provides the basic fileserver service and is the minimum needed to serve file shares.
+ HINT: https://fitzcarraldoblog.wordpress.com/2016/10/17/a-correct-method-of-configuring-samba-for-browsing-smb-shares-in-a-home-network/
+
+Package: shadow-chage
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-chage
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 21124
+Filename: shadow-chage_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 21891
+SHA256sum: dbc3797cc9c506802b6a5cfc78e78129bfc63723dfd3623e81f06bbba5a4b4e9
+Description:  Full version of standard chage utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-chfn
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-chfn
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 52547
+Filename: shadow-chfn_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 52536
+SHA256sum: aaad2ef2a995fac6835f6433b25e95cb9eb6cad79674d6125f6447a2b97f2224
+Description:  Full version of standard chfn utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-chgpasswd
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-chgpasswd
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 54692
+Filename: shadow-chgpasswd_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 54643
+SHA256sum: bac4763e670f174d5c4059947c753f6682d6546b26dd14f90d0e377ba33cf811
+Description:  Full version of standard chgpasswd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-chpasswd
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-chpasswd
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 52298
+Filename: shadow-chpasswd_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 52319
+SHA256sum: 50e3d0d24c94504639a0b710a41d20672d0aeccba6d463f3b028365c9d5bf2a1
+Description:  Full version of standard chpasswd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-chsh
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-chsh
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 51723
+Filename: shadow-chsh_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 51691
+SHA256sum: 8cfac7ce1639199bc5976b5a2a16dd9b70efb40aaedb3bce9d081b8d28ba3400
+Description:  Full version of standard chsh utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-common
+Version: 4.8.1-3
+Depends: libc
+Source: feeds/packages/utils/shadow
+SourceName: shadow-common
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 4952
+Filename: shadow-common_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 5750
+SHA256sum: d0c8fc4f81b40dffa10c131a1420e7e565d9345747c6d199938c3e9bb9166ccd
+Description:  Shared definitions for the PLD Linux shadow utilities
+
+Package: shadow-expiry
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-expiry
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 9825
+Filename: shadow-expiry_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 10662
+SHA256sum: 29cbb138fe91731d551bb9a883273e6ec01e8ab94cada8a87d4beed34787ceee
+Description:  Full version of standard expiry utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-faillog
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-faillog
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 5718
+Filename: shadow-faillog_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 6535
+SHA256sum: 8575173f6cae593533dc44a41c231d32decf496790b1b9b26d3f417b077d8cff
+Description:  Full version of standard faillog utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-gpasswd
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-gpasswd
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 58616
+Filename: shadow-gpasswd_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 58584
+SHA256sum: 4a92c07270595f371e07deda19773a144e5b90ce01975adfc45e4de18f896da0
+Description:  Full version of standard gpasswd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-groupadd
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-groupadd
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 23086
+Filename: shadow-groupadd_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 23842
+SHA256sum: eb93a44a0affdd6434cf6b76f325b19397e41c299184046514cbdee0a4187b0c
+Description:  Full version of standard groupadd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-groupdel
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-groupdel
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 21186
+Filename: shadow-groupdel_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 21964
+SHA256sum: 9d34f2dfea4d0cb5b3be88a9dce7e9aa4fae1a9642db4278db7115203f04d2ca
+Description:  Full version of standard groupdel utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-groupmems
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-groupmems
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 16710
+Filename: shadow-groupmems_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 17515
+SHA256sum: a30e2d0a9aa968a82a00e87a87bdacd3f20129b22b6c931db8bcd560d0bd086c
+Description:  Full version of standard groupmems utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-groupmod
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-groupmod
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 23468
+Filename: shadow-groupmod_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 24217
+SHA256sum: 9a2bcc2a7b1b10969ac08fcd499393bca07003e7ed0e6aac3ce4d5aa65dddcdd
+Description:  Full version of standard groupmod utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-groups
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-groups
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 2952
+Filename: shadow-groups_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 3761
+SHA256sum: cf9ffadbcb9d4525014a3a2d6959b494203d1f9e8f35c6b3aff7eab86b51fbba
+Description:  Full version of standard groups utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-grpck
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-grpck
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 17006
+Filename: shadow-grpck_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 17799
+SHA256sum: 929f347524253df649e04897a542c705c805a8c8d6348b6b86931a4375987308
+Description:  Full version of standard grpck utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-grpconv
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-grpconv
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 15098
+Filename: shadow-grpconv_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 15872
+SHA256sum: 31d8ecf06b1aadec41a020447119ce58a1062db428dbde2988296a96676e3a42
+Description:  Full version of standard grpconv utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-grpunconv
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-grpunconv
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 15007
+Filename: shadow-grpunconv_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 15808
+SHA256sum: 40778afbaa64e45cff65d24025f5835f588818384325aba77409c54f13021746
+Description:  Full version of standard grpunconv utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-lastlog
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-lastlog
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 7258
+Filename: shadow-lastlog_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 8082
+SHA256sum: 1cd6bc75abb5af576974833d0cf6bb56559d48da7d5dc14bc7e83cf30a55c07b
+Description:  Full version of standard lastlog utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-login
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-login
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 59508
+Filename: shadow-login_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 59538
+SHA256sum: 82b37852a656225995452a3bff1de17e834b0f678d4c129b5dec12a117f2d9db
+Description:  Full version of standard login utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-logoutd
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-logoutd
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 3697
+Filename: shadow-logoutd_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 4494
+SHA256sum: 718d883139b353863ae3a9422cf7fd0e04d0c3021e639d437a3f4d517f7a51f3
+Description:  Full version of standard logoutd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-newgidmap
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-newgidmap
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 12201
+Filename: shadow-newgidmap_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 12984
+SHA256sum: be72d01ea50f8ea096b7dbef6e5499e9865584cb5ef6649aace70d9bfd1706e2
+Description:  Full version of standard newgidmap utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-newgrp
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-newgrp
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 47168
+Filename: shadow-newgrp_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 47328
+SHA256sum: ed4b510c7b994c318c6885c7bd417dec884ce3dcff7ebec841d4862949d67de5
+Description:  Full version of standard newgrp utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-newuidmap
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-newuidmap
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 11728
+Filename: shadow-newuidmap_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 12506
+SHA256sum: cd4ecbe5b95e7d23a351c0332ac8635e043b5c747f540fc5a2ce8663e2a61b25
+Description:  Full version of standard newuidmap utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-newusers
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-newusers
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 63202
+Filename: shadow-newusers_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 63243
+SHA256sum: 887fb0a128a162879ce17cd15176ed8a8ed3e05eb82c3f6cbaa4f8771a4115a4
+Description:  Full version of standard newusers utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-nologin
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-nologin
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 1477
+Filename: shadow-nologin_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 2335
+SHA256sum: ff04207b2e607cc16e114946c1e62f8344b9fbce62ab207f69cfa60266c1adcf
+Description:  Full version of standard nologin utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-passwd
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-passwd
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 57410
+Filename: shadow-passwd_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 57447
+SHA256sum: 68f5ca796314dfe8c730ca08f631fe72c57a073437bc4b1b51458188e73a5ead
+Description:  Full version of standard passwd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-pwck
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-pwck
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 15507
+Filename: shadow-pwck_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 16267
+SHA256sum: a56db1f038d1fc2fccc339d867441203ae762e3a9d55514f374b2337c0a48643
+Description:  Full version of standard pwck utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-pwconv
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-pwconv
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 13876
+Filename: shadow-pwconv_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 14667
+SHA256sum: b83afd3b3a497bfbfab5aebaf2eb7eae0e7ae464d4d453d4d23b9035d3fcb6da
+Description:  Full version of standard pwconv utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-pwunconv
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-pwunconv
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 13201
+Filename: shadow-pwunconv_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 13983
+SHA256sum: 741465938ac0c14ca1a283f60e82b679413509215e1d29bf5eb5babaa11c322a
+Description:  Full version of standard pwunconv utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-su
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-su
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 55335
+Filename: shadow-su_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 55325
+SHA256sum: b5db6630928d1541f4f2a2d843ad768543d83a45bf27dc6d8c8127df4e78a478
+Description:  Full version of standard su utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-useradd
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-useradd
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 37980
+Filename: shadow-useradd_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 38785
+SHA256sum: 4afd94b0e95b3bc8f5d500013d72f182a4c365f71b74a0f1ae09ea4c310d795b
+Description:  Full version of standard useradd utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-userdel
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-userdel
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 24666
+Filename: shadow-userdel_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 25408
+SHA256sum: 8d9e53767346407982c34d48a69dca986fe9d669c776253413577f3e4819ef19
+Description:  Full version of standard userdel utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-usermod
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-usermod
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 36498
+Filename: shadow-usermod_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 37296
+SHA256sum: 1e038317cab3ca7c1c6527b239cdab91603041e925f9ef6661c8ae4c76e9d3d2
+Description:  Full version of standard usermod utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow-utils
+Version: 4.8.1-3
+Depends: libc
+Source: feeds/packages/utils/shadow
+SourceName: shadow-utils
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 105
+Filename: shadow-utils_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 938
+SHA256sum: e804bcbd1df676ccc256f8d1232672c226073d431e27a68cebd323c88246ce4c
+Description:  Full versions of standard shadow utilities. Normally, you would not
+ use this package, since the functionality in BusyBox is more than
+ sufficient and much smaller.
+
+Package: shadow-vipw
+Version: 4.8.1-3
+Depends: libc, shadow-common
+Source: feeds/packages/utils/shadow
+SourceName: shadow-vipw
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 18375
+Filename: shadow-vipw_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 19189
+SHA256sum: 48ea6146f70d656a392e78f1ba61add75b8bd24a5668e1b94662a1db0bcad4ad
+Description:  Full version of standard vipw utility. Normally, you would not use this
+ package, since the functionality in BusyBox is more than sufficient.
+
+Package: shadow
+Version: 4.8.1-3
+Depends: libc, shadow-chage, shadow-chfn, shadow-chgpasswd, shadow-chpasswd, shadow-chsh, shadow-expiry, shadow-faillog, shadow-gpasswd, shadow-groupadd, shadow-groupdel, shadow-groupmems, shadow-groupmod, shadow-groups, shadow-grpck, shadow-grpconv, shadow-grpunconv, shadow-lastlog, shadow-login, shadow-logoutd, shadow-newgidmap, shadow-newgrp, shadow-newuidmap, shadow-newusers, shadow-nologin, shadow-passwd, shadow-pwck, shadow-pwconv, shadow-pwunconv, shadow-su, shadow-useradd, shadow-userdel, shadow-usermod, shadow-vipw
+Source: feeds/packages/utils/shadow
+SourceName: shadow
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592875997
+CPE-ID: cpe:/a:debian:shadow
+Architecture: aarch64_cortex-a53
+Installed-Size: 105
+Filename: shadow_4.8.1-3_aarch64_cortex-a53.ipk
+Size: 1087
+SHA256sum: 9c486e8db866170c7f43479d8c25dea9fdb1864d49fe666caad5973debf5de25
+Description:  Full versions of standard shadow utilities. Normally, you would not
+ use this package, since the functionality in BusyBox is more than
+ sufficient and much smaller.
+
+Package: shadowsocks-libev-config
+Version: 3.3.5-1
+Depends: libc
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-config
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1600679999
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 2716
+Filename: shadowsocks-libev-config_3.3.5-1_aarch64_cortex-a53.ipk
+Size: 3518
+SHA256sum: 10b4c5c77176edc191d7b34ba61fa53b6d9bda6bea44e3422605ae62765bcfec
+Description:  shadowsocks-libev config scripts
+
+Package: shadowsocks-libev-ss-local
+Version: 3.3.5-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config, libpcre
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-local
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1600679999
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 50782
+Filename: shadowsocks-libev-ss-local_3.3.5-1_aarch64_cortex-a53.ipk
+Size: 51558
+SHA256sum: 94c05c3c34216cfd54b30aff7064e446be19e740253f445f0673cc55a4a9d57e
+Description:  shadowsocks-libev ss-local
+
+Package: shadowsocks-libev-ss-redir
+Version: 3.3.5-1
+Depends: libc, libev, libmbedtls12, libpthread, libsodium, shadowsocks-libev-config
+Source: feeds/packages/net/shadowsocks-libev
+SourceName: shadowsocks-libev-ss-redir
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1600679999
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 45392
+Filename: shadowsocks-libev-ss-redir_3.3.5-1_aarch64_cortex-a53.ipk
+Size: 46165
+SHA256sum: d34ab90352a0233bac9832e89eb11a7097f0e8af80a1f1582ce061906eb78535
+Description:  shadowsocks-libev ss-redir
+
+Package: shadowsocksr-libev-ssr-check
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/packages/net/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-check
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1654535508
+Architecture: aarch64_cortex-a53
+Installed-Size: 2589
+Filename: shadowsocksr-libev-ssr-check_2.5.6-9_aarch64_cortex-a53.ipk
+Size: 3331
+SHA256sum: 5870fb99c3ffc8bc5970ba05164fd26428b3cdc484c116d6f8b4e16263704d59
+Description:  shadowsocksr-libev ssr-check
+
+Package: shadowsocksr-libev-ssr-local
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/packages/net/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-local
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1654535508
+Architecture: aarch64_cortex-a53
+Installed-Size: 61947
+Filename: shadowsocksr-libev-ssr-local_2.5.6-9_aarch64_cortex-a53.ipk
+Size: 62745
+SHA256sum: 1d12fc07aa02112702b805896636e0cb00a9a03a94c53341b5c60b698b95785a
+Description:  shadowsocksr-libev ssr-local
+
+Package: shadowsocksr-libev-ssr-redir
+Version: 2.5.6-9
+Depends: libc, libev, libsodium, libopenssl1.1, libpthread, libpcre, libudns, zlib
+Source: feeds/packages/net/shadowsocksr-libev
+SourceName: shadowsocksr-libev-ssr-redir
+License: GPL-3.0
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1654535508
+Architecture: aarch64_cortex-a53
+Installed-Size: 55662
+Filename: shadowsocksr-libev-ssr-redir_2.5.6-9_aarch64_cortex-a53.ipk
+Size: 56389
+SHA256sum: 2d62d80bd45a21a8c035998a85eecce5e94eeca647dc5ba08770468fc2713838
+Description:  shadowsocksr-libev ssr-redir
+
+Package: simple-obfs-client
+Version: 0.0.5-2
+Depends: libc, libpthread, libev
+Provides: simple-obfs
+Source: feeds/packages/net/simple-obfs
+SourceName: simple-obfs-client
+License: GPL-3.0-or-later
+LicenseFiles: LICENSE
+Section: net
+SourceDateEpoch: 1618917396
+Maintainer: Jian Chang <aa65535@live.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 31108
+Filename: simple-obfs-client_0.0.5-2_aarch64_cortex-a53.ipk
+Size: 31863
+SHA256sum: f2e2fda442e209019d10ec7c11e9b5034b21da8a1b7038dadaf3885e08e055c5
+Description:  Simple-obfs is a simple obfusacting tool, designed as plugin server of shadowsocks.
+
+Package: smartd
+Version: 7.2-1
+Depends: libc, libstdcpp6
+Source: feeds/packages/utils/smartmontools
+SourceName: smartd
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 144165
+Filename: smartd_7.2-1_aarch64_cortex-a53.ipk
+Size: 145047
+SHA256sum: 486e2fba70b8627e4a48707b5f8a91db4ca1f4b05cf5cf55c8c2e8c99d54bd4a
+Description:  smartmontools contains utility programs (smartd) to
+ control/monitor storage systems using the Self-Monitoring, Analysis
+ and Reporting Technology System (S.M.A.R.T.) built into most modern
+ ATA and SCSI disks. It is derived from smartsuite.
+
+Package: smartmontools
+Version: 7.2-1
+Depends: libc, libstdcpp6
+Source: feeds/packages/utils/smartmontools
+SourceName: smartmontools
+License: GPL-2.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1614187565
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 214550
+Filename: smartmontools_7.2-1_aarch64_cortex-a53.ipk
+Size: 215304
+SHA256sum: cb8e5ed8f933d600063deb1b6064e8e6f1b86518bc3a5354d07fc61276bc40da
+Description:  smartmontools contains utility programs (smartctl) to
+ control/monitor storage systems using the Self-Monitoring, Analysis
+ and Reporting Technology System (S.M.A.R.T.) built into most modern
+ ATA and SCSI disks. It is derived from smartsuite.
+
+Package: sms-tool
+Version: 2023-09-21-1b6ca032-1
+Depends: libc
+Source: feeds/packages/utils/sms-tool
+SourceName: sms-tool
+License: Apache-2.0
+LicenseFiles: LICENSE-2.0.txt
+Section: utils
+SourceDateEpoch: 1706419290
+Maintainer: Andrey Butirsky <butirsky@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 8976
+Filename: sms-tool_2023-09-21-1b6ca032-1_aarch64_cortex-a53.ipk
+Size: 9751
+SHA256sum: 83138c8c607301e0041dafcf0a5c3d5635ab26ccd12c33b94664b35b4af9479d
+Description:  SMS Tool for 3G/4G modem
+
+Package: tar
+Version: 1.32-3
+Depends: xz, libc, bzip2
+Alternatives: 300:/bin/tar:/usr/libexec/tar-gnu
+Source: feeds/packages/utils/tar
+SourceName: tar
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1592923420
+CPE-ID: cpe:/a:gnu:tar
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 198948
+Filename: tar_1.32-3_aarch64_cortex-a53.ipk
+Size: 199669
+SHA256sum: 9d2e7acae8564e361c4ecc604cc772c186dcf76dff3f5132bdc7cd71a5f121e0
+Description:  Tar is a program for packaging a set of files as a
+ single archive in tar format.
+
+Package: tcping
+Version: 0.3-2
+Depends: libc
+Source: feeds/packages/net/tcping
+SourceName: tcping
+License: GPL-2.0-only
+LicenseFiles: license.txt
+Section: net
+SourceDateEpoch: 1675155577
+Architecture: aarch64_cortex-a53
+Installed-Size: 3808
+Filename: tcping_0.3-2_aarch64_cortex-a53.ipk
+Size: 4521
+SHA256sum: 3669111ae591b084acfb1ce1c4bf2d2665ee833ab7c87ed5eabfbd27d8e0ae13
+Description:  tcping measures the latency of a tcp-connection
+
+Package: ttyd
+Version: 1.6.3-3
+Depends: libc, libopenssl1.1, libjson-c5, libuv1, zlib, libwebsockets-full
+Source: feeds/packages/utils/ttyd
+SourceName: ttyd
+License: MIT
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1633711436
+Maintainer: Shuanglei Tao <tsl0922@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 232290
+Filename: ttyd_1.6.3-3_aarch64_cortex-a53.ipk
+Size: 233066
+SHA256sum: 82332010361d8b809452416b70bc90647ecf0598905a67e186005000eaa0740a
+Description:  ttyd is a command-line tool for sharing terminal over the web.
+
+Package: usbids
+Version: 0.359-1
+Depends: libc
+Source: feeds/packages/utils/hwdata
+SourceName: usbids
+License: GPL-2.0-or-later  XFree86-1.0
+LicenseFiles: LICENSE
+Section: utils
+SourceDateEpoch: 1651680722
+Architecture: aarch64_cortex-a53
+Installed-Size: 251058
+Filename: usbids_0.359-1_aarch64_cortex-a53.ipk
+Size: 251536
+SHA256sum: 8d6908d2ebc8b50967307bb5acf21da50dad1cecfddf2ec1be63bdc7bffbde78
+Description:  USB ID list
+
+Package: usbutils
+Version: 013-2
+Depends: libc, libusb-1.0-0, libudev, usbids, librt, libpthread
+Source: feeds/packages/utils/usbutils
+SourceName: usbutils
+License: GPL-2.0-only
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1609784864
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: aarch64_cortex-a53
+Installed-Size: 55342
+Filename: usbutils_013-2_aarch64_cortex-a53.ipk
+Size: 56074
+SHA256sum: 41b95ec5d71e08f76abefa74a076ff563a7247d821d4a812f75cb2ffaf013a35
+Description:  USB devices listing utilities
+
+Package: wget-ssl
+Version: 1.21.4-1
+Depends: libc, libpcre2, zlib, libopenssl1.1, librt
+Provides: gnu-wget, wget
+Alternatives: 300:/usr/bin/wget:/usr/libexec/wget-ssl, 300:/usr/bin/wget-ssl:/usr/libexec/wget-ssl
+Source: feeds/packages/net/wget
+SourceName: wget-ssl
+License: GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1696386710
+CPE-ID: cpe:/a:gnu:wget
+Architecture: aarch64_cortex-a53
+Installed-Size: 218574
+Filename: wget-ssl_1.21.4-1_aarch64_cortex-a53.ipk
+Size: 219231
+SHA256sum: 57256c70405f68ecad68532ed5051d19531ca36ecf08c9af0c387eae69e8c326
+Description:  Wget is a network utility to retrieve files from the Web using http
+ and ftp, the two most widely used Internet protocols. It works
+ non-interactively, so it will work in the background, after having
+ logged off. The program supports recursive retrieval of web-authoring
+ pages as well as ftp sites -- you can use wget to make mirrors of
+ archives and home pages or to travel the Web like a WWW robot.
+ This package is built with SSL support.
+
+Package: wsdd2
+Version: 2021-08-09-bcc51c3e-4
+Depends: libc
+Source: feeds/packages/net/wsdd2
+SourceName: wsdd2
+License: GPL-3.0-only
+LicenseFiles: COPYING
+Section: net
+SourceDateEpoch: 1684657273
+Maintainer: Andy Walsh <andy.walsh44+github@gmail.com>
+Architecture: aarch64_cortex-a53
+Installed-Size: 19594
+Filename: wsdd2_2021-08-09-bcc51c3e-4_aarch64_cortex-a53.ipk
+Size: 20551
+SHA256sum: 72e47cec4adc41c4fac2078dd03f10dad77333194b9231b8a3716fde6db53ba7
+Description:  Web Services for Devices or Web Services on Devices (WSD),
+ is a Microsoft API to simplify programming connections to web service
+ enabled devices, such as printers, scanners and file shares.
+ 
+ This daemon advertises and responds to probe requests from Windows clients looking for file shares.
+ It also implements LLMNR multicast name lookup services.
+
+Package: xz-utils
+Version: 5.2.5-3
+Depends: libc
+Source: feeds/packages/utils/xz
+SourceName: xz-utils
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1605949199
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: aarch64_cortex-a53
+Installed-Size: 105
+Filename: xz-utils_5.2.5-3_aarch64_cortex-a53.ipk
+Size: 867
+SHA256sum: 19a07ccd98c5b83795b53776d482657c6e086dbff0b2bce0bcda642c66f0bf8d
+Description:  XZ Utils (meta)
+
+Package: xz
+Version: 5.2.5-3
+Depends: libc, xz-utils, liblzma
+Alternatives: 300:/usr/bin/xz:/usr/libexec/xz-lzmautils, 300:/usr/bin/lzcat:/usr/libexec/xz-lzmautils, 300:/usr/bin/lzma:/usr/libexec/xz-lzmautils, 300:/usr/bin/unlzma:/usr/libexec/xz-lzmautils, 300:/usr/bin/unxz:/usr/libexec/xz-lzmautils, 300:/usr/bin/xzcat:/usr/libexec/xz-lzmautils
+Source: feeds/packages/utils/xz
+SourceName: xz
+License: Public-Domain LGPL-2.1-or-later GPL-2.0-or-later GPL-3.0-or-later
+LicenseFiles: COPYING
+Section: utils
+SourceDateEpoch: 1605949199
+CPE-ID: cpe:/a:tukaani:xz
+Architecture: aarch64_cortex-a53
+Installed-Size: 28779
+Filename: xz_5.2.5-3_aarch64_cortex-a53.ipk
+Size: 29561
+SHA256sum: 290f9300f54c333abe97d85b05a74b1670ce7af9cb6c5a281717780f63143cf2
+Description:  Contains: xz  lzcat lzma unlzma unxz xzcat
+
+Package: zerotier
+Version: 1.12.2-1
+Depends: libc, libpthread, libstdcpp6, kmod-tun, ip, libminiupnpc, libnatpmp1, libatomic1
+Source: feeds/packages/net/zerotier
+SourceName: zerotier
+License: BSL 1.1
+LicenseFiles: LICENSE.txt
+Section: net
+SourceDateEpoch: 1694871934
+Maintainer: Moritz Warning <moritzwarning@web.de>
+Architecture: aarch64_cortex-a53
+Installed-Size: 547093
+Filename: zerotier_1.12.2-1_aarch64_cortex-a53.ipk
+Size: 547147
+SHA256sum: 920cf0493019bf25d99c355d5d7a403c02e984f04bf798fdf5003903b4b51c5d
+Description:  ZeroTier creates a global provider-independent virtual private cloud network.
+
