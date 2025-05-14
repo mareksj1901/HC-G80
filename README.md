@@ -3,6 +3,7 @@
 # mt7981ba DDR3-512mb MT7531ae MT7976cn RTL8125bg
 
 # installed software (samba nas etc.) - please see the list: config.buildinf
+# including NVMe and USB storage support
 
 # Adds support for cheaper USB modems
 # Tested: T99W175 (original USB and USB-mod) T77W968 via modem manager
