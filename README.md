@@ -1,6 +1,9 @@
 # HC-G80
 # Huastlink 5G Home Router
 # mt7981ba DDR3-512mb MT7531ae MT7976cn RTL8125bg
+
+# installed software (samba nas etc.) - please see the list: config.buildinf
+
 # Adds support for cheaper USB modems
 # Tested: T99W175 (original USB and USB-mod) T77W968 via modem manager
 # FM350 RM520N (GLAA) via app-modem
